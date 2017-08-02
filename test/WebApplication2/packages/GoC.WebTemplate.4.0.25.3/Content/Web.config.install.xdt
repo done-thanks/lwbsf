@@ -1,0 +1,47 @@
+﻿<?xml version="1.0"?>
+<configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+
+  <configSections xdt:Transform="InsertBefore(/configuration/*[1])" />
+  <configSections xdt:Locator="XPath(/configuration/configSections[last()])">
+    <section name="GoC.WebTemplate" type="GoC.WebTemplate.Configurations" xdt:Locator="Match(name)" xdt:Transform="InsertIfMissing" />
+  </configSections>
+  <configSections xdt:Transform="RemoveAll" xdt:Locator="Condition(count(*)=0)" />
+
+  <GoC.WebTemplate xdt:Transform="Remove"/>
+  <GoC.WebTemplate xmlns="http://tempuri.org/WebTemplateWebForms.xsd" xdt:Transform="InsertIfMissing"/>
+  <GoC.WebTemplate xdt:Transform="Replace"
+  xmlns="http://tempuri.org/WebTemplateWebForms.xsd"
+   version="v4_0_25"
+   subTheme=""
+   environment="Akamai"
+   loadJQueryFromGoogle="false"
+   showPreContent="true"
+   showPostContent="true"
+   showFeedbackLink="true"
+   feedbackLinkUrl=""
+   showLanguageLink="true"
+   showSharePageLink="true"
+   showSearch="true"
+   showFeatures="true"
+   staticFilesLocation="~\GoC.WebTemplate\StaticFallbackFiles">
+
+    <sessionTimeOut
+      enabled="false"
+      inactivity="1200000"
+      reactionTime="180000"
+      sessionalive="1200000"
+      logouturl="#"
+      refreshCallbackUrl="#"
+      refreshOnClick="false"
+      refreshLimit="120000"
+      method=""
+      additionalData=""/>
+
+    <leavingSecureSiteWarning
+	    enabled="false"
+      displayModalWindow="true"
+	    redirectURL=""
+	    excludedDomains=""/>
+  </GoC.WebTemplate>
+
+</configuration>
