@@ -76,10 +76,10 @@
             {
                 "id": "EXT_NRCAN_Lambert_3978",
                 "default": {
-                    "xmin": -2321571,
-                    "ymin": -577450,
-                    "xmax": 985727,
-                    "ymax": 1144990
+                    "xmin": -1680111,
+                    "ymin": -582961,
+                    "xmax": 604267,
+                    "ymax": 950502
                 },
                 "spatialReference": {
                     "wkid": 3978
@@ -104,175 +104,175 @@
                 "id": "LOD_NRCAN_Lambert_3978",
                 "lods": [
                     {
-			"level": 1,
-			"resolution": 22489.62831258996,
-			"scale": 85000000
-		},
-		{
-			"level": 2,
-			"resolution": 13229.193125052918,
-			"scale": 50000000
-		},
-		{
-			"level": 3,
-			"resolution": 7937.5158750317505,
-			"scale": 30000000
-		},
-		{
-			"level": 4,
-			"resolution": 4630.2175937685215,
-			"scale": 17500000
-		},
-		{
-			"level": 5,
-			"resolution": 2645.8386250105837,
-			"scale": 10000000
-		},
-		{
-			"level": 6,
-			"resolution": 1587.5031750063501,
-			"scale": 6000000
-		},
-		{
-			"level": 7,
-			"resolution": 926.0435187537042,
-			"scale": 3500000
-		},
-		{
-			"level": 8,
-			"resolution": 529.1677250021168,
-			"scale": 2000000
-		},
-		{
-			"level": 9,
-			"resolution": 317.50063500127004,
-			"scale": 1200000
-		},
-		{
-			"level": 10,
-			"resolution": 185.20870375074085,
-			"scale": 700000
-		},
-		{
-			"level": 11,
-			"resolution": 111.12522225044451,
-			"scale": 420000
-		},
-		{
-			"level": 12,
-			"resolution": 66.1459656252646,
-			"scale": 250000
-		},
-		{
-			"level": 13,
-			"resolution": 38.36466006265346,
-			"scale": 145000
-		},
-		{
-			"level": 14,
-			"resolution": 22.48962831258996,
-			"scale": 85000
-		},
-		{
-			"level": 15,
-			"resolution": 13.229193125052918,
-			"scale": 50000
-		},
-		{
-			"level": 16,
-			"resolution": 7.9375158750317505,
-			"scale": 30000
-		}
+                        "level": 1,
+                        "resolution": 22489.62831258996,
+                        "scale": 85000000
+                    },
+                    {
+                        "level": 2,
+                        "resolution": 13229.193125052918,
+                        "scale": 50000000
+                    },
+                    {
+                        "level": 3,
+                        "resolution": 7937.5158750317505,
+                        "scale": 30000000
+                    },
+                    {
+                        "level": 4,
+                        "resolution": 4630.2175937685215,
+                        "scale": 17500000
+                    },
+                    {
+                        "level": 5,
+                        "resolution": 2645.8386250105837,
+                        "scale": 10000000
+                    },
+                    {
+                        "level": 6,
+                        "resolution": 1587.5031750063501,
+                        "scale": 6000000
+                    },
+                    {
+                        "level": 7,
+                        "resolution": 926.0435187537042,
+                        "scale": 3500000
+                    },
+                    {
+                        "level": 8,
+                        "resolution": 529.1677250021168,
+                        "scale": 2000000
+                    },
+                    {
+                        "level": 9,
+                        "resolution": 317.50063500127004,
+                        "scale": 1200000
+                    },
+                    {
+                        "level": 10,
+                        "resolution": 185.20870375074085,
+                        "scale": 700000
+                    },
+                    {
+                        "level": 11,
+                        "resolution": 111.12522225044451,
+                        "scale": 420000
+                    },
+                    {
+                        "level": 12,
+                        "resolution": 66.1459656252646,
+                        "scale": 250000
+                    },
+                    {
+                        "level": 13,
+                        "resolution": 38.36466006265346,
+                        "scale": 145000
+                    },
+                    {
+                        "level": 14,
+                        "resolution": 22.48962831258996,
+                        "scale": 85000
+                    },
+                    {
+                        "level": 15,
+                        "resolution": 13.229193125052918,
+                        "scale": 50000
+                    },
+                    {
+                        "level": 16,
+                        "resolution": 7.9375158750317505,
+                        "scale": 30000
+                    }
                 ]
             },
             {
                 "id": "LOD_ESRI_World_AuxMerc_3857",
                 "lods": [
                     {
-			"level": 1,
-			"resolution": 78271.51696399994,
-			"scale": 295828763.795777
-		},
-		{
-			"level": 2,
-			"resolution": 39135.75848200009,
-			"scale": 147914381.897889
-		},
-		{
-			"level": 3,
-			"resolution": 19567.87924099992,
-			"scale": 73957190.948944
-		},
-		{
-			"level": 4,
-			"resolution": 9783.93962049996,
-			"scale": 36978595.474472
-		},
-		{
-			"level": 5,
-			"resolution": 4891.96981024998,
-			"scale": 18489297.737236
-		},
-		{
-			"level": 6,
-			"resolution": 2445.98490512499,
-			"scale": 9244648.868618
-		},
-		{
-			"level": 7,
-			"resolution": 1222.992452562495,
-			"scale": 4622324.434309
-		},
-		{
-			"level": 8,
-			"resolution": 611.4962262813797,
-			"scale": 2311162.217155
-		},
-		{
-			"level": 9,
-			"resolution": 305.74811314055756,
-			"scale": 1155581.108577
-		},
-		{
-			"level": 10,
-			"resolution": 152.87405657041106,
-			"scale": 577790.554289
-		},
-		{
-			"level": 11,
-			"resolution": 76.43702828507324,
-			"scale": 288895.277144
-		},
-		{
-			"level": 12,
-			"resolution": 38.21851414253662,
-			"scale": 144447.638572
-		},
-		{
-			"level": 13,
-			"resolution": 19.10925707126831,
-			"scale": 72223.819286
-		},
-		{
-			"level": 14,
-			"resolution": 9.554628535634155,
-			"scale": 36111.909643
-		},
-		{
-			"level": 15,
-			"resolution": 4.77731426794937,
-			"scale": 18055.954822
-		},
-		{
-			"level": 16,
-			"resolution": 2.388657133974685,
-			"scale": 9027.977411
-		},
-		{
-			"level": 17,
-			"resolution": 1.1943285668550503,
-			"scale": 4513.988705
-		}
+                        "level": 1,
+                        "resolution": 78271.51696399994,
+                        "scale": 295828763.795777
+                    },
+                    {
+                        "level": 2,
+                        "resolution": 39135.75848200009,
+                        "scale": 147914381.897889
+                    },
+                    {
+                        "level": 3,
+                        "resolution": 19567.87924099992,
+                        "scale": 73957190.948944
+                    },
+                    {
+                        "level": 4,
+                        "resolution": 9783.93962049996,
+                        "scale": 36978595.474472
+                    },
+                    {
+                        "level": 5,
+                        "resolution": 4891.96981024998,
+                        "scale": 18489297.737236
+                    },
+                    {
+                        "level": 6,
+                        "resolution": 2445.98490512499,
+                        "scale": 9244648.868618
+                    },
+                    {
+                        "level": 7,
+                        "resolution": 1222.992452562495,
+                        "scale": 4622324.434309
+                    },
+                    {
+                        "level": 8,
+                        "resolution": 611.4962262813797,
+                        "scale": 2311162.217155
+                    },
+                    {
+                        "level": 9,
+                        "resolution": 305.74811314055756,
+                        "scale": 1155581.108577
+                    },
+                    {
+                        "level": 10,
+                        "resolution": 152.87405657041106,
+                        "scale": 577790.554289
+                    },
+                    {
+                        "level": 11,
+                        "resolution": 76.43702828507324,
+                        "scale": 288895.277144
+                    },
+                    {
+                        "level": 12,
+                        "resolution": 38.21851414253662,
+                        "scale": 144447.638572
+                    },
+                    {
+                        "level": 13,
+                        "resolution": 19.10925707126831,
+                        "scale": 72223.819286
+                    },
+                    {
+                        "level": 14,
+                        "resolution": 9.554628535634155,
+                        "scale": 36111.909643
+                    },
+                    {
+                        "level": 15,
+                        "resolution": 4.77731426794937,
+                        "scale": 18055.954822
+                    },
+                    {
+                        "level": 16,
+                        "resolution": 2.388657133974685,
+                        "scale": 9027.977411
+                    },
+                    {
+                        "level": 17,
+                        "resolution": 1.1943285668550503,
+                        "scale": 4513.988705
+                    }
                 ]
             }
         ],
@@ -423,7 +423,7 @@
                 "id": "r8",
                 "name": "Round 8",
                 "nameField": "Name",
-                "layerType":"esriFeature",
+                "layerType": "esriFeature",
                 "url": "http://maps-cartes.ec.gc.ca/arcgis/rest/services/LWBSF/MapServer/17",
                 "metadataUrl": "metadata/LWBSF_en.xml",
                 "catalogueUrl": "http://open.canada.ca/data/en/dataset/ede485c2-07b2-48fb-8d37-5f123ee99610",
@@ -444,7 +444,7 @@
                 "id": "r7",
                 "name": "Round 7",
                 "nameField": "Name",
-                "layerType":"esriFeature",
+                "layerType": "esriFeature",
                 "url": "http://maps-cartes.ec.gc.ca/arcgis/rest/services/LWBSF/MapServer/16",
                 "metadataUrl": "metadata/LWBSF_en.xml",
                 "catalogueUrl": "http://open.canada.ca/data/en/dataset/ede485c2-07b2-48fb-8d37-5f123ee99610",
@@ -465,7 +465,7 @@
                 "id": "r6",
                 "name": "Round 6",
                 "nameField": "Name",
-                "layerType":"esriFeature",
+                "layerType": "esriFeature",
                 "url": "http://maps-cartes.ec.gc.ca/arcgis/rest/services/LWBSF/MapServer/15",
                 "metadataUrl": "metadata/LWBSF_en.xml",
                 "catalogueUrl": "http://open.canada.ca/data/en/dataset/ede485c2-07b2-48fb-8d37-5f123ee99610",
@@ -486,7 +486,7 @@
                 "id": "r5",
                 "name": "Round 5",
                 "nameField": "Name",
-                "layerType":"esriFeature",
+                "layerType": "esriFeature",
                 "url": "http://maps-cartes.ec.gc.ca/arcgis/rest/services/LWBSF/MapServer/14",
                 "metadataUrl": "metadata/LWBSF_en.xml",
                 "catalogueUrl": "http://open.canada.ca/data/en/dataset/ede485c2-07b2-48fb-8d37-5f123ee99610",
@@ -507,7 +507,7 @@
                 "id": "r4",
                 "name": "Round 4",
                 "nameField": "Name",
-                "layerType":"esriFeature",
+                "layerType": "esriFeature",
                 "url": "http://maps-cartes.ec.gc.ca/arcgis/rest/services/LWBSF/MapServer/13",
                 "metadataUrl": "metadata/LWBSF_en.xml",
                 "catalogueUrl": "http://open.canada.ca/data/en/dataset/ede485c2-07b2-48fb-8d37-5f123ee99610",
@@ -528,7 +528,7 @@
                 "id": "r3",
                 "name": "Round 3",
                 "nameField": "Name",
-                "layerType":"esriFeature",
+                "layerType": "esriFeature",
                 "url": "http://maps-cartes.ec.gc.ca/arcgis/rest/services/LWBSF/MapServer/12",
                 "metadataUrl": "metadata/LWBSF_en.xml",
                 "catalogueUrl": "http://open.canada.ca/data/en/dataset/ede485c2-07b2-48fb-8d37-5f123ee99610",
@@ -549,7 +549,7 @@
                 "id": "r2",
                 "name": "Round 2",
                 "nameField": "Name",
-                "layerType":"esriFeature",
+                "layerType": "esriFeature",
                 "url": "http://maps-cartes.ec.gc.ca/arcgis/rest/services/LWBSF/MapServer/11",
                 "metadataUrl": "metadata/LWBSF_en.xml",
                 "catalogueUrl": "http://open.canada.ca/data/en/dataset/ede485c2-07b2-48fb-8d37-5f123ee99610",
@@ -570,7 +570,7 @@
                 "id": "r1",
                 "name": "Round 1",
                 "nameField": "Name",
-                "layerType":"esriFeature",
+                "layerType": "esriFeature",
                 "url": "http://maps-cartes.ec.gc.ca/arcgis/rest/services/LWBSF/MapServer/10",
                 "catalogueUrl": "http://open.canada.ca/data/en/dataset/ede485c2-07b2-48fb-8d37-5f123ee99610",
                 "metadataUrl": "metadata/LWBSF_en.xml",
@@ -590,7 +590,7 @@
             {
                 "id": "boundary",
                 "name": "Lake Winnipeg Basin",
-                "layerType":"esriFeature",
+                "layerType": "esriFeature",
                 "url": "http://maps-cartes.ec.gc.ca/arcgis/rest/services/LWBSF/MapServer/18",
                 "disabledControls": [ "query" ],
                 "state": {
