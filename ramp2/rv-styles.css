@@ -22301,6 +22301,17 @@ Obviously you need some kind of rules and criteria:
   border-color: #e74c3c;
 }
 
+[is=rv-map] rv-table-setting-panel .rv-filter-setting .rv-filter-number md-input-container input::-ms-clear,
+[is=rv-map] rv-table-setting-panel .rv-filter-setting .rv-filter-selector md-input-container input::-ms-clear,
+[is=rv-map] rv-table-setting-panel .rv-filter-setting .rv-filter-string md-input-container input::-ms-clear,
+[is=rv-map] rv-table-setting-panel .rv-filter-setting .rv-filter-date md-input-container input::-ms-clear,
+.fgpv rv-table-setting-panel .rv-filter-setting .rv-filter-number md-input-container input::-ms-clear,
+.fgpv rv-table-setting-panel .rv-filter-setting .rv-filter-selector md-input-container input::-ms-clear,
+.fgpv rv-table-setting-panel .rv-filter-setting .rv-filter-string md-input-container input::-ms-clear,
+.fgpv rv-table-setting-panel .rv-filter-setting .rv-filter-date md-input-container input::-ms-clear {
+  display: none;
+}
+
 [is=rv-map] .rv-lightbox-dialog .rv-lightbox-next,
 .fgpv .rv-lightbox-dialog [is=rv-map] .rv-lightbox-next,
 [is=rv-map] .rv-lightbox-dialog .rv-lightbox-previous,
@@ -23743,6 +23754,7 @@ Obviously you need some kind of rules and criteria:
 
 [is=rv-map] rv-geosearch .rv-geosearch-content .rv-geosearch-results .rv-results-list .rv-results-item .rv-results-item-tooltip,
 .fgpv rv-geosearch .rv-geosearch-content .rv-geosearch-results .rv-results-list .rv-results-item .rv-results-item-tooltip {
+  top: 0;
   display: flex;
   position: absolute;
   background-color: #e0e0e0;
@@ -24239,7 +24251,7 @@ Obviously you need some kind of rules and criteria:
 
 [is=rv-map] .rv-slider .rv-slider-body,
 .fgpv .rv-slider .rv-slider-body {
-  flex: 1;
+  flex: 1 1 auto;
   display: flex;
   align-items: center;
   padding-left: 32px;
@@ -24725,9 +24737,14 @@ Obviously you need some kind of rules and criteria:
 
 [is=rv-map] .rv-basemap-selector .rv-minimize-button,
 .fgpv .rv-basemap-selector .rv-minimize-button {
-  right: 0;
-  top: 17px;
-  position: absolute;
+  flex: 0;
+  margin: 0;
+}
+
+[is=rv-map] .rv-basemap h3,
+.fgpv .rv-basemap h3 {
+  flex: 1;
+  white-space: nowrap;
 }
 
 [is=rv-map] .rv-basemap md-backdrop,
@@ -25546,6 +25563,11 @@ Obviously you need some kind of rules and criteria:
   display: flex;
   flex-direction: column;
   min-height: 0;
+}
+
+[is=rv-map] .rv-table-data-container .dataTables_wrapper .dataTables_scroll .dataTables_scrollHead,
+.fgpv .rv-table-data-container .dataTables_wrapper .dataTables_scroll .dataTables_scrollHead {
+  width: 100% !important;
 }
 
 [is=rv-map] .rv-table-data-container .dataTables_wrapper .dataTables_scroll .dataTables_scrollHead .rv-filter-string,
@@ -26928,6 +26950,11 @@ Obviously you need some kind of rules and criteria:
   align-items: center;
 }
 
+[is=rv-map] md-input-container.rv-table-search input::-ms-clear,
+.fgpv md-input-container.rv-table-search input::-ms-clear {
+  display: none;
+}
+
 [is=rv-map] table.dataTable thead .sorting,
 .fgpv table.dataTable thead .sorting {
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAQAAADYWf5HAAAAkElEQVQoz7XQMQ5AQBCF4dWQSJxC5wwax1Cq1e7BAdxD5SL+Tq/QCM1oNiJidwox0355mXnG/DrEtIQ6azioNZQxI0ykPhTQIwhCR+BmBYtlK7kLJYwWCcJA9M4qdrZrd8pPjZWPtOqdRQy320YSV17OatFC4euts6z39GYMKRPCTKY9UnPQ6P+GtMRfGtPnBCiqhAeJPmkqAAAAAElFTkSuQmCC);
@@ -26962,7 +26989,9 @@ Obviously you need some kind of rules and criteria:
 }
 
 [is=rv-map] .esriMapLayers g[id$="bbox_layer"],
-.fgpv .esriMapLayers g[id$="bbox_layer"] {
+[is=rv-map] .esriMapLayers g[id="rv_hilight_layer"],
+.fgpv .esriMapLayers g[id$="bbox_layer"],
+.fgpv .esriMapLayers g[id="rv_hilight_layer"] {
   pointer-events: none;
 }
 
@@ -28365,6 +28394,3 @@ md-select-menu md-option .md-text {
 .rv-full-screen [is=rv-map] {
   visibility: visible;
 }
-
-
-/*# sourceMappingURL=rv-styles.css.map*/
