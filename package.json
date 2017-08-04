@@ -1,7 +1,7 @@
 {
     "name": "lwbsf",
     "version": "1.0.0",
-    "description": "No description",
+    "description": "",
     "main": "index.js",
     "scripts": {
         "serve": "http-server",
@@ -16,7 +16,7 @@
     "bugs": {
         "url": "https://github.com/done-thanks/lwbsf/issues"
     },
-    "homepage": "https://github.com/done-thanks/lwbsf#readme",
+    "homepage": "https://github.com/done-thanks/lwbsf",
     "devDependencies": {
         "http-server": "^0.10.0"
     }

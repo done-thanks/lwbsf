@@ -457,7 +457,7 @@
                 "layerType": "esriFeature",
                 "url": "http://maps-cartes.ec.gc.ca/arcgis/rest/services/LWBSF/MapServer/8",
                 "metadataUrl": "metadata/LWBSF_fr.xml",
-                "catalogueUrl": "http://open.canada.ca/data/en/dataset/ede485c2-07b2-48fb-8d37-5f123ee99610",
+                "catalogueUrl": "http://ouvert.canada.ca/data/fr/dataset/ede485c2-07b2-48fb-8d37-5f123ee99610",
                 "state": {
                     "snapshot": true
                 },
@@ -478,7 +478,7 @@
                 "layerType": "esriFeature",
                 "url": "http://maps-cartes.ec.gc.ca/arcgis/rest/services/LWBSF/MapServer/7",
                 "metadataUrl": "metadata/LWBSF_fr.xml",
-                "catalogueUrl": "http://open.canada.ca/data/en/dataset/ede485c2-07b2-48fb-8d37-5f123ee99610",
+                "catalogueUrl": "http://ouvert.canada.ca/data/fr/dataset/ede485c2-07b2-48fb-8d37-5f123ee99610",
                 "state": {
                     "snapshot": true
                 },
@@ -499,7 +499,7 @@
                 "layerType": "esriFeature",
                 "url": "http://maps-cartes.ec.gc.ca/arcgis/rest/services/LWBSF/MapServer/6",
                 "metadataUrl": "metadata/LWBSF_fr.xml",
-                "catalogueUrl": "http://open.canada.ca/data/en/dataset/ede485c2-07b2-48fb-8d37-5f123ee99610",
+                "catalogueUrl": "http://ouvert.canada.ca/data/fr/dataset/ede485c2-07b2-48fb-8d37-5f123ee99610",
                 "state": {
                     "snapshot": true
                 },
@@ -520,7 +520,7 @@
                 "layerType": "esriFeature",
                 "url": "http://maps-cartes.ec.gc.ca/arcgis/rest/services/LWBSF/MapServer/5",
                 "metadataUrl": "metadata/LWBSF_fr.xml",
-                "catalogueUrl": "http://open.canada.ca/data/en/dataset/ede485c2-07b2-48fb-8d37-5f123ee99610",
+                "catalogueUrl": "http://ouvert.canada.ca/data/fr/dataset/ede485c2-07b2-48fb-8d37-5f123ee99610",
                 "state": {
                     "snapshot": true
                 },
@@ -541,7 +541,7 @@
                 "layerType": "esriFeature",
                 "url": "http://maps-cartes.ec.gc.ca/arcgis/rest/services/LWBSF/MapServer/4",
                 "metadataUrl": "metadata/LWBSF_fr.xml",
-                "catalogueUrl": "http://open.canada.ca/data/en/dataset/ede485c2-07b2-48fb-8d37-5f123ee99610",
+                "catalogueUrl": "http://ouvert.canada.ca/data/fr/dataset/ede485c2-07b2-48fb-8d37-5f123ee99610",
                 "state": {
                     "snapshot": true
                 },
@@ -562,7 +562,7 @@
                 "layerType": "esriFeature",
                 "url": "http://maps-cartes.ec.gc.ca/arcgis/rest/services/LWBSF/MapServer/3",
                 "metadataUrl": "metadata/LWBSF_fr.xml",
-                "catalogueUrl": "http://open.canada.ca/data/en/dataset/ede485c2-07b2-48fb-8d37-5f123ee99610",
+                "catalogueUrl": "http://ouvert.canada.ca/data/fr/dataset/ede485c2-07b2-48fb-8d37-5f123ee99610",
                 "state": {
                     "snapshot": true
                 },
@@ -583,7 +583,7 @@
                 "layerType": "esriFeature",
                 "url": "http://maps-cartes.ec.gc.ca/arcgis/rest/services/LWBSF/MapServer/2",
                 "metadataUrl": "metadata/LWBSF_fr.xml",
-                "catalogueUrl": "http://open.canada.ca/data/en/dataset/ede485c2-07b2-48fb-8d37-5f123ee99610",
+                "catalogueUrl": "http://ouvert.canada.ca/data/fr/dataset/ede485c2-07b2-48fb-8d37-5f123ee99610",
                 "state": {
                     "snapshot": true
                 },
@@ -603,8 +603,8 @@
                 "nameField": "Nom",
                 "layerType": "esriFeature",
                 "url": "http://maps-cartes.ec.gc.ca/arcgis/rest/services/LWBSF/MapServer/1",
-                "catalogueUrl": "http://open.canada.ca/data/en/dataset/ede485c2-07b2-48fb-8d37-5f123ee99610",
                 "metadataUrl": "metadata/LWBSF_fr.xml",
+                "catalogueUrl": "http://ouvert.canada.ca/data/fr/dataset/ede485c2-07b2-48fb-8d37-5f123ee99610",
                 "state": {
                     "snapshot": true
                 },

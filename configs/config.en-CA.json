@@ -598,8 +598,8 @@
                 "nameField": "Name",
                 "layerType": "esriFeature",
                 "url": "http://maps-cartes.ec.gc.ca/arcgis/rest/services/LWBSF/MapServer/10",
-                "catalogueUrl": "http://open.canada.ca/data/en/dataset/ede485c2-07b2-48fb-8d37-5f123ee99610",
                 "metadataUrl": "metadata/LWBSF_en.xml",
+                "catalogueUrl": "http://open.canada.ca/data/en/dataset/ede485c2-07b2-48fb-8d37-5f123ee99610",
                 "state": {
                     "snapshot": true
                 },
