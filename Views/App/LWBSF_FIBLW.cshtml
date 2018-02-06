@@ -1,0 +1,57 @@
+﻿
+@{
+    Layout = "~/Views/GoC.WebTemplate/GoCWebTemplate_Layout.cshtml";
+    ViewBag.WebTemplateCore.DateModified = Convert.ToDateTime("2018-02-05", System.Globalization.CultureInfo.CurrentCulture);
+    ViewBag.WebTemplateCore.ShowFeedbackLink = false;
+    ViewBag.WebTemplateCore.ShowSharePageLink = false;
+
+    ViewBag.WebTemplateCore.HTMLHeaderElements.Add("<link rel='stylesheet' href='../Styles/map-styles.css'>");
+    ViewBag.WebTemplateCore.HTMLHeaderElements.Add("<link rel='stylesheet' href='../Styles/custom-layout-template.css'/>");
+    ViewBag.WebTemplateCore.HTMLHeaderElements.Add("<link rel='stylesheet' href='../ramp2/rv-styles.css'/>");
+
+    ViewBag.WebTemplateCore.HTMLBodyElements.Add("<script src='../Scripts/map-script.js'></script>");
+    ViewBag.WebTemplateCore.HTMLBodyElements.Add("<script src='../ramp2/rv-main.js'></script>");
+    ViewBag.WebTemplateCore.HTMLBodyElements.Add("<script src='../ramp2/rv-page.js'></script>");
+
+    var configToUse = "../configs/config.en-CA.json";
+    var dataLang = "[\"en-CA\"]";
+    var dropdownLanguage = "English";
+
+    if (ViewBag.WebTemplateCore.TwoLetterCultureLanguage == "fr")
+    {
+        configToUse = "../configs/config.fr-CA.json";
+        dataLang = "[\"fr-CA\"]";
+        dropdownLanguage = "French";
+    }
+}
+
+<script>
+    var needIePolyfills = [
+        'Promise' in window,
+        'TextDecoder' in window,
+        'findIndex' in Array.prototype,
+        'find' in Array.prototype,
+        'from' in Array,
+        'startsWith' in String.prototype,
+        'endsWith' in String.prototype,
+        'outerHTML' in SVGElement.prototype
+    ].some(function (x) { return !x; });
+    if (needIePolyfills) {
+        // NOTE: this is the only correct way of injecting scripts into a page and have it execute before loading/executing any other scripts after this point (ie polyfills must be executed before the bootstrap)
+        // more info on script loading: https://www.html5rocks.com/en/tutorials/speed/script-loading/
+        document.write('<script src="../ramp2/ie-polyfills.js"><\/script>');
+    }
+</script>
+
+<!-- Title inserted in map-script.js -->
+<h1 class="pageTitle" data-lang=@dropdownLanguage></h1>
+<!-- Description inserted in map-script.js-->
+<p class="pageDescription"></p>
+
+<div id="fgpmap" is="rv-map" class="myMap" data-rv-config=@configToUse data-rv-langs=@dataLang rv-service-endpoint="http://section917.cloudapp.net:8000/" data-rv-restore-bookmark="bookmark" data-rv-wait="true">
+    <noscript>
+        <p>This interactive map requires JavaScript. To view this content please enable JavaScript in your browser or download a browser that supports it.<p>
+
+        <p>Cette carte interactive nécessite JavaScript. Pour voir ce contenu, s'il vous plaît, activer JavaScript dans votre navigateur ou télécharger un navigateur qui le prend en charge.</p>
+    </noscript>
+</div>
